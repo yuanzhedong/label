@@ -1,0 +1,22 @@
+# notebook 
+*.ipynb
+.ipynb_checkpoints
+
+.DS_Store
+.idea
+
+# Python cache
+__pycache__
+.idea/
+
+# data
+data
+*.bmp
+
+# emacs backups
+*~
+
+#unit test coverage
+.coverage
+codecov
+coverage.xml
