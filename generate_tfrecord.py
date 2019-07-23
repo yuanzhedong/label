@@ -30,9 +30,11 @@ FLAGS = flags.FLAGS
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
     if row_label == 'pcb':
-        return 0
-    elif row_label == 'screw_driver':
         return 1
+    elif row_label == 'screw_driver':
+        return 2
+    elif row_label == 'cap':
+        return 3
     else:
         return None
 
